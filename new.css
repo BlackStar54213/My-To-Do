@@ -1,0 +1,117 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.all {
+    background-color: grey;
+    width: 35%;
+    text-align: center;
+    padding: 20px;
+    place-self: center;
+    margin-left: 30%;
+    margin-top: 6%;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    row-gap: 90px;
+    color: white;
+
+}
+
+.header h1 {
+    border: 2px solid white;
+    padding: 5px;
+    user-select: none;
+}
+
+.header p {
+    margin-left: 47%;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 15%;
+    padding: 5px;
+    user-select: none;
+}
+
+.header p:hover {
+    color: orange;
+}
+
+.header h1:hover {
+    color: orange;
+    border: orange 2px solid;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+input {
+    padding: 8px;
+    border-bottom-right-radius: 10px;
+    margin: 20px;
+    border: none;
+    width: 90%;
+}
+
+.add button {
+    padding: 10px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    margin-left: 43%;
+    user-select: none;
+}
+
+.add button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: ease-in-out .4s;
+}
+
+#displayer {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 0%;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    user-select: none;
+}
+
+#displayer button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width:450px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .all {
+        width: 90%;
+        margin-left: 0%;
+        padding: 30px;
+        margin-top: 80px;
+    }
+}
